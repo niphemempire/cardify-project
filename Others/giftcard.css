@@ -10,11 +10,11 @@
 }
 
 .head {
-  background-color: #ea4fa2;
+  background-color: #f2f8f3;
 }
 
 .nav {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -33,7 +33,7 @@
 
 .nav-list li a {
   font-size: 1em;
-  color: #fff;
+  color: #122231;
   font-weight: 600;
 }
 
@@ -51,22 +51,200 @@
 
 .sign-in {
   padding: 12px 14px;
-  background-color: #ea4fa2;
-  border: #fff 1px solid;
+  background-color: #f2f8f3;
+  border: #122231 1px solid;
   font-size: 1em;
   font-weight: 500;
   border-radius: 10px;
-  color: #fff;
+  color: #122231;
 }
 
 .create-acc {
   padding: 12px 14px;
-  background-color: #fff;
-  border: #fff 1px solid;
+  background-color: #122231;
+  border: #122231 1px solid;
   font-size: 1em;
   font-weight: 900;
   border-radius: 10px;
-  color: #122231;
+  color: #fff;
+}
+
+
+
+ .nav1 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav1:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+
+ .nav2 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav2:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+ .nav3 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav3:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+ .nav4 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav4:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+ .nav5 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav5:hover .mekeo {
+    display: block;
+    z-index: 1251;
 }
 
 /* ---- media -- query -- for -- header  */
@@ -83,19 +261,27 @@
 
   .sign-in {
     padding: 8px 10px;
+    background-color: #f2f8f3;
+    border: #122231 1px solid;
     font-size: 1em;
     font-weight: 400;
     border-radius: 10px;
+    color: #122231;
   }
 
   .create-acc {
     padding: 8px 10px;
+    background-color: #122231;
+    border: #122231 1px solid;
+    font-size: 1em;
     font-weight: 600;
     border-radius: 10px;
+    color: #fff;
   }
 
   .nav-list li a {
     font-size: 1em;
+    color: #122231;
     font-weight: 500;
   }
 }
@@ -117,6 +303,7 @@
     display: block;
   }
 }
+
 
 /* ---css-styling---for---gift---card---hero---section--- */
 
