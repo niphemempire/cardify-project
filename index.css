@@ -69,6 +69,184 @@
   color: #fff;
 }
 
+
+
+ .nav1 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav1:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+
+ .nav2 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav2:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+ .nav3 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav3:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+ .nav4 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav4:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
+ .nav5 {
+    position: relative;
+}
+
+.mekeo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    display: none;
+    position: absolute;
+}
+
+.mekeo li {
+    padding: 10px;
+    /* background-color: #E5E7EB; */
+    border-radius: 10px;
+}
+
+.mekeo li:hover {
+    padding: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.mekeo li a:hover {
+    color: #222;
+}
+
+
+.nav5:hover .mekeo {
+    display: block;
+    z-index: 1251;
+}
+
 /* ---- media -- query -- for -- header  */
 
 @media (max-width: 1197px) {
